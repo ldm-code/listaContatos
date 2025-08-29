@@ -21,7 +21,8 @@ Utiliza **SQLAlchemy** para gerenciar a conexão e manipulação do banco de dad
 ---
 
 ## Observacao:
-- a senha usada aqui nao e a senha real do meu banco,por questoes obvias de seguranca,para executar o arquivo, altere a variavel 'sua_senha_do_banco' para a senha do seu banco ao executar a aplicacao.
+- A senha usada aqui nao e a senha real do meu banco,por questoes obvias de seguranca,para executar o arquivo, altere a variavel 'sua_senha_do_banco' para a senha do seu banco ao executar a aplicacao.
+- E necessario que voce tenha um banco chamado contatos e crie uma conexao no vs code para que a aplicacao funcione.
 
 
 
