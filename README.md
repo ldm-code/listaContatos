@@ -33,12 +33,12 @@ Utiliza SQLAlchemy para gerenciar a conexão e manipulação do banco de dados M
 
 ## Estrutura do Projeto
 
-listaContatos/
-├── templates/
-│ ├── contatos.html ← Formulário para cadastrar contatos
-│ └── lista.html ← Página para exibir contatos salvos
-├── manage.py ← Script principal da aplicação Flask
-└── README.md ← Este arquivo de documentação
+- listaContatos/
+- ├── templates/
+- │ ├── contatos.html 
+- │ └── lista.html 
+- ├── manage.py 
+- └── README.md 
 
 - **templates/**: Pasta com os arquivos HTML utilizados nas rotas da aplicação.  
   - `contatos.html`: template que exibe o formulário para criar um novo contato.  
