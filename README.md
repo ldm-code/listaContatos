@@ -15,7 +15,7 @@ Utiliza **SQLAlchemy** para gerenciar a conexão e manipulação do banco de dad
 ---
 
 ## Observacao:
--a senha usada aqui nao e a senha real do meu banco,por questoes obvias de seguranca,para executar o arquivo, altere a variavel 'sua_senha_do_banco' para a senha do seu banco ao executar a aplicacao
+- a senha usada aqui nao e a senha real do meu banco,por questoes obvias de seguranca,para executar o arquivo, altere a variavel 'sua_senha_do_banco' para a senha do seu banco ao executar a aplicacao
 
 
 
