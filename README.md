@@ -5,11 +5,11 @@ Utiliza **SQLAlchemy** para gerenciar a conexão e manipulação do banco de dad
 
 ---
 ## Tecnologias utilizadas:
-- Python
-- HTML
-- Flask
-- MySql
-- SQLAlchemy
+- Python(backend)
+- HTML(frontend)
+- Flask(backend)
+- MySql(banco de dados)
+- SQLAlchemy(para conectar banco mysql com o sistema)
 
 ## Funcionalidades:
 
