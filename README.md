@@ -46,6 +46,6 @@ Utiliza SQLAlchemy para gerenciar a conexão e manipulação do banco de dados M
 
 - **manage.py**: Arquivo responsável por inicializar a aplicação Flask, definir rotas, implementar lógica de cadastro e listagem de contatos, e estabelecer conexão com o banco MySQL via SQLAlchemy.
 
-- **README.md**: Explica o propósito do projeto, tecnologias utilizadas, como usar, e agora também contém a estrutura de pastas para facilitar o entendimento.
+- **README.md**: Explica o propósito do projeto, tecnologias utilizadas, estrutura,e algumas observacoes necessarias para que a aplicacao funcione.
 
 
