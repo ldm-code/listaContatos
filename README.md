@@ -10,8 +10,8 @@ Utiliza SQLAlchemy para gerenciar a conexão e manipulação do banco de dados M
 - **Python** (backend)  
 - **Flask** (framework web)  
 - **MySQL** (banco de dados)  
-- **SQLAlchemy** (ORM para manipulação do banco)  
-- **HTML** (frontend) com templates Flask (`contatos.html` e `lista.html`)
+- **SQLAlchemy** (para conexao entre backend e banco)
+- **HTML** (frontend basico)
 
 ---
 
