@@ -21,6 +21,7 @@ Utiliza SQLAlchemy para gerenciar a conexão e manipulação do banco de dados M
 - Listar todos os contatos cadastrados  
 - Integração com banco MySQL via SQLAlchemy  
 - Frontend simples com HTML usando templates Flask
+- Contatos ordenados em ordem alfabetica
 
 ---
 
