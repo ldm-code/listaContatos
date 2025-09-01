@@ -30,7 +30,7 @@ def site():
                         novo=Contato(nome=nome,numero=numero)
                         db.session.add(novo)
                         db.session.commit()
-                        contatos=Contato.query.all()
+                        contatos=Contato.query.order_by(Contato.nome.asc()).all()
                         return  render_template('lista.html',contatos=contatos) 
                 else:
                         return 'nome ou numero nao inserido ' ,400
