@@ -21,6 +21,7 @@ Utiliza SQLAlchemy para gerenciar a conexão e manipulação do banco de dados M
 - Listar todos os contatos cadastrados  
 - Integração com banco MySQL via SQLAlchemy  
 - Frontend simples com HTML usando templates Flask
+- Contatos ordenados em ordem alfabetica
 
 ---
 
@@ -43,9 +44,7 @@ Utiliza SQLAlchemy para gerenciar a conexão e manipulação do banco de dados M
 - **templates/**: Pasta com os arquivos HTML utilizados nas rotas da aplicação.  
   - `contatos.html`: template que exibe o formulário para criar um novo contato.  
   - `lista.html`: template que lista os contatos já cadastrados no banco.
-
 - **manage.py**: Arquivo responsável por inicializar a aplicação Flask, definir rotas, implementar lógica de cadastro e listagem de contatos, e estabelecer conexão com o banco MySQL via SQLAlchemy.
-
 - **README.md**: Explica o propósito do projeto, tecnologias utilizadas, estrutura,e algumas observacoes necessarias para que a aplicacao funcione.
 
 
