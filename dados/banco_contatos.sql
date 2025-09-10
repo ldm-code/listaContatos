@@ -3,6 +3,8 @@
 -- Host: localhost    Database: contatos
 -- ------------------------------------------------------
 -- Server version	8.0.43
+CREATE DATABASE contatos;
+USE contatos;
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
