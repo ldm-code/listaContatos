@@ -28,8 +28,8 @@ Utiliza SQLAlchemy para gerenciar a conexão e manipulação do banco de dados M
 ## Observação
 
 - A senha usada aqui não é a real do banco; por questões de segurança, altere a variável `sua_senha_do_banco` para sua própria senha antes de executar a aplicação.  
-- É necessário ter um banco chamado `contatos` e configurar a conexão no seu ambiente (ex: VS Code) para que a aplicação funcione corretamente.
-- Vale lembrar tambem que a configuracao das tabelas do banco ja esta em banco_contatos.sql
+- É necessário configurar a conexão no seu ambiente (ex: VS Code) para que a aplicação funcione corretamente.
+- A criacao do banco e das tabelas e realizada ao executar o arquivo banco_contatos.sql.
 
 ---
 
