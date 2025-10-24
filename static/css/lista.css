@@ -1,0 +1,23 @@
+body{
+          background-color: darkgray;
+          border: 30px solid rgb(150, 150, 163);
+          padding: 200px;
+}
+a{
+          background-color: white;
+          border-radius: 3ch ;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          
+}
+h1{
+          background-color: rgb(100, 112, 112);
+
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+          border-radius: 3ch;
+          font-size: 30px;
+}
+li{
+                 
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
