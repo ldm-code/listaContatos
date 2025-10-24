@@ -12,6 +12,7 @@ Utiliza SQLAlchemy para gerenciar a conexão e manipulação do banco de dados M
 - **MySQL** (banco de dados)  
 - **SQLAlchemy** (para conexao entre backend e banco)
 - **HTML** (frontend basico)
+- **CSS** (customização basica)
 
 ---
 
