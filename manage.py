@@ -39,6 +39,15 @@ def site():
 
                 else:
                         return 'nome ou numero nao inserido ' ,400
-
+@app.route('/delete/<int:id>',methods=['POST'])
+def delete(id):
+        contato=Contato.query.get(id)
+        if contato:
+                db.session.delete(contato)
+                db.session.commit()
+                contatos=Contato.query.order_by(Contato.nome.asc()).all()
+                return render_template('lista.html',contatos=contatos)
+        else:
+                return 'contato nao encontrado', 404
 if __name__=='__main__':
         app.run(debug=True)

@@ -11,10 +11,14 @@
                  <form action="/lista" method="GET"></form>
                     <h1>Seus contatos:</h1>
                      <div class="container">
-  '                     {% for contato in contatos %}
+                       {% for contato in contatos %}
                            <div class="p-card">
                               <p>{{ contato.nome }}</p>
                                 <p>{{ contato.numero }}</p>
+                                
+                                <form action="{{ url_for('delete', id=contato.id) }}" method="POST">
+                                    <input type="submit" value="apagar">
+                              </form>
                                 </div>
                           {% endfor %}
                         </div>
