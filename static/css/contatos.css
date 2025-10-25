@@ -21,3 +21,11 @@ body{
           border: 30px solid rgb(150, 150, 163);
           padding: 200px;
 }
+input:hover{
+          transform: translateX(-9px);
+}
+button:hover{
+          color: rgb(129, 127, 131);
+          transform: translateY(9px);
+
+}

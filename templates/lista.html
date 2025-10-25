@@ -10,13 +10,15 @@
           <div style="text-align: center;">
                  <form action="/lista" method="GET"></form>
                     <h1>Seus contatos:</h1>
-                    <ul>
-
-                              {% for contato in contatos %}
-                                  <li>{{ contato.nome }}, {{ contato.numero }}</li>
-                              {% endfor %}
-                              <a href="/">Voltar</a>
-                    </ul>
+                     <div class="container">
+  '                     {% for contato in contatos %}
+                           <div class="p-card">
+                              <p>{{ contato.nome }}</p>
+                                <p>{{ contato.numero }}</p>
+                                </div>
+                          {% endfor %}
+                        </div>
+                        <a href="/">Voltar</a>
                     
 
 
