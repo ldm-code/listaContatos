@@ -19,10 +19,12 @@ Utiliza SQLAlchemy para gerenciar a conexão e manipulação do banco de dados M
 ## Funcionalidades
 
 - Cadastrar contatos (nome e número)  
-- Listar todos os contatos cadastrados  
+- Listar todos os contatos cadastrados
+- Apagar contato 
 - Integração com banco MySQL via SQLAlchemy  
 - Frontend simples com HTML usando templates Flask
 - Contatos ordenados em ordem alfabetica
+- Customizacao basica com CSS
 
 ---
 
