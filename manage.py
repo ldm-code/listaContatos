@@ -49,5 +49,15 @@ def delete(id):
                 return render_template('lista.html',contatos=contatos)
         else:
                 return 'contato nao encontrado', 404
+@app.route('/edit/<int:id>',methods=['POST'])
+def edit(id):
+        contato=Contato.query.get(id)
+        if contato:
+                contato.nome=request.form.get('nome')
+                contato.numero=request.form.get('numero')
+                db.session.commit()
+        contatos=Contato.query.order_by(Contato.nome.asc()).all()
+        return render_template('lista.html',contatos=contatos)
+
 if __name__=='__main__':
         app.run(debug=True)

@@ -13,9 +13,18 @@
                      <div class="container">
                        {% for contato in contatos %}
                            <div class="p-card">
-                              <p>{{ contato.nome }}</p>
-                                <p>{{ contato.numero }}</p>
-                                
+                              <p><span id="nome-{{contato.id}}">{{ contato.nome }}</span>
+                                     <input type="text" id="input-nome-{{ contato.id }}" style="display:none;">
+                                    </p>
+                                    <p><span id="numero-{{ contato.id }}">{{ contato.numero }}</span>
+                                      <input type="text" id="input-numero-{{ contato.id }}" style="display:none;">
+                                    </p>
+                                    <button class="toggle-editar" data-id="{{ contato.id }}">Editar</button>
+                                    <form id="form-edit-{{ contato.id }}" action="{{url_for('edit',id=contato.id)}}" method="POST">
+                                      <input type="submit" value="Salvar" style="display:none;">
+                                      <input type="hidden" id="hidden-nome-{{ contato.id }}" name="nome">
+                                      <input type="hidden" id="hidden-numero-{{contato.id}}" name="numero">
+                                    </form>
                                 <form action="{{ url_for('delete', id=contato.id) }}" method="POST">
                                     <input type="submit" value="apagar">
                               </form>
@@ -26,6 +35,7 @@
                     
 
 
-          </div>          
+          </div>  
+          <script src="{{url_for('static', filename='js/lista.js')}}"></script>       
 </body>
 </html>
