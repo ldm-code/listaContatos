@@ -1,11 +1,18 @@
 from flask import Flask, request, render_template
 from flask_sqlalchemy import SQLAlchemy
 import re
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 app = Flask(__name__)
 
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql://root:sua_senha_do_banco@127.0.0.1/contatos"
+app.config['SQLALCHEMY_DATABASE_URI'] =  os.getenv("DATABASE_URL")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+
+app.secret_key = os.getenv("SECRET_KEY")
 
 db = SQLAlchemy(app)
 class Contato(db.Model):
